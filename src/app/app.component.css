@@ -1,0 +1,25 @@
+table {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mat-card {
+  flex-grow: 1;
+  border-radius: 0;
+}
+
+.row-priority-high {
+  background-color: #b71c1c;
+}
+.row-priority-medium {
+  background-color: #f57f17;
+}
+
+.row-isComplete {
+  background-color: #1b5e20 !important;
+}

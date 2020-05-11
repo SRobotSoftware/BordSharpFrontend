@@ -1,0 +1,8 @@
+{
+  "/api/*": {
+    "target": "http://bord-api-dev.us-west-2.elasticbeanstalk.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}

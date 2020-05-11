@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  apiUrl: 'http://bord-api-dev.us-west-2.elasticbeanstalk.com/api',
 };
 
 /*
